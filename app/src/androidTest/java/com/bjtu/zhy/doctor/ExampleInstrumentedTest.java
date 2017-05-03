@@ -1,4 +1,4 @@
-package a800.com.drwithyouapp1st;
+package com.bjtu.zhy.doctor;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -16,11 +16,11 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-    @Test
-    public void useAppContext() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
+	@Test
+	public void useAppContext() throws Exception {
+		// Context of the app under test.
+		Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("a800.com.drwithyouapp1st", appContext.getPackageName());
-    }
+		assertEquals("com.bjtu.zhy.doctor", appContext.getPackageName());
+	}
 }

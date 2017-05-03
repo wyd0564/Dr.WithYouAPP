@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Dr.WithYouAPP1st</string>
+    <string name="app_name">doctor</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
 </resources>
